@@ -13,10 +13,15 @@
     </thead>
     <tbody>
       <tr>
-        <th scope="row">1</th>
-        <td>   </td>
-        <td>   </td>
-        <td>   </td>
+        <th>  {{ nombre }} </th>
+        <td> Uppercase </td>
+        <td>  {{ nombre | uppercase }} </td>
+      </tr>
+
+      <tr>
+        <th>  {{ nombre }} </th>
+        <td> Lowercase </td>
+        <td>  {{ nombre | lowercase }} </td>
       </tr>
     </tbody>
   </table>
