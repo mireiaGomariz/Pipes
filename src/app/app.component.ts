@@ -29,6 +29,6 @@ export class AppComponent {
 
   valorDePromesa = new Promise( (resolve, reject)=>{
 
-    setTimeout( ()=>('llego la data!'), 3500 );
+    setTimeout( ()=>resolve('llego la data!'), 3500 );
   } )
 }
